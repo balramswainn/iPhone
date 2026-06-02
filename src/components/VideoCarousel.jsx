@@ -9,7 +9,7 @@ const VideoCarousel = () => {
           <div className='sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]'>
 
           <div className='w-full h-full flex-center rounded-3xl overflow-hidden bg-black  flex items-center justify-center'>
-            <video className='rounded-2xl' id="video" playsInline={true} preload='auto' muted > 
+            <video className='' id="video" playsInline={true} preload='auto' muted > 
               <source src={list.video} />
             </video>
             <p className='absolute top-2 left-3'>{list.textLists}</p>
